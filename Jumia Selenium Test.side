@@ -1,0 +1,204 @@
+{
+  "id": "9646eddd-9234-4460-ad9b-6f80a4a3ad95",
+  "version": "2.0",
+  "name": "Jumia Selenium Test",
+  "url": "https://www.jumia.com.ng",
+  "tests": [{
+    "id": "1871a607-8d4d-4cde-b16f-61994273badf",
+    "name": "Wrong Username/Password",
+    "commands": [{
+      "id": "6bb641f4-17e5-40ba-9ce9-2ce67600d937",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86304f17-9645-4f87-a50c-249bc77dbac6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d63240a-2c28-4ca4-9fb9-fb20bea4eddb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_head .vent-link:nth-child(1) > .ic",
+      "targets": [
+        ["css=.\\_head .vent-link:nth-child(1) > .ic", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6254e8d1-d3a6-42dd-8358-bb0b149de0fd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_head .vent-link:nth-child(1) > .ic",
+      "targets": [
+        ["css=.\\_head .vent-link:nth-child(1) > .ic", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "275b7c08-f333-4c66-8d6f-1203f2c4ad7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dpdw:nth-child(1) > .trig > .ic > use",
+      "targets": [
+        ["css=.dpdw:nth-child(1) > .trig > .ic > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2e0434a-da9c-483f-afb9-b64a8a67ca81",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.-hr-bb > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//div[@id='dpdw-login-box']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/customer/account/login/?return=%2F')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51fd57db-6beb-4d41-a8d6-ba72d0403402",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_identifierValue",
+      "targets": [
+        ["id=input_identifierValue", "id"],
+        ["name=identifierValue", "name"],
+        ["css=#input_identifierValue", "css:finder"],
+        ["xpath=//input[@id='input_identifierValue']", "xpath:attributes"],
+        ["xpath=//form[@id='identification-form']/div/div[2]/div/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7927a2d-0388-46b4-bbfb-9d7976aa7dc6",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_identifierValue",
+      "targets": [
+        ["id=input_identifierValue", "id"],
+        ["name=identifierValue", "name"],
+        ["css=#input_identifierValue", "css:finder"],
+        ["xpath=//input[@id='input_identifierValue']", "xpath:attributes"],
+        ["xpath=//form[@id='identification-form']/div/div[2]/div/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "alfaki@rocketmail.com"
+    }, {
+      "id": "9d45ccf1-7b89-4911-a684-b4fc6dfac998",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__touch:nth-child(3)",
+      "targets": [
+        ["css=.mdc-button__touch:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='identification-form']/div/div[3]/div[2]/button/span[3]", "xpath:idRelative"],
+        ["xpath=//button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18c954c5-9cd5-4fca-9730-dd0317e91b67",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btn-skip-password > .mdc-button__touch",
+      "targets": [
+        ["css=#btn-skip-password > .mdc-button__touch", "css:finder"],
+        ["xpath=//button[@id='btn-skip-password']/span[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b95cd6a-57a0-483c-aae5-5b4b11fa4cee",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mdc-text-field__input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='passwordForm']/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62261529-1fca-4a0d-b4d0-44f982906fef",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mdc-text-field__input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='passwordForm']/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "banana01"
+    }, {
+      "id": "46239e5a-cb2b-4a4b-9919-e65714e18550",
+      "comment": "",
+      "command": "click",
+      "target": "css=.visibility-off > svg",
+      "targets": [
+        ["css=.visibility-off > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8943dcce-4131-4bcd-acc2-5a436a12ae01",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mdc-text-field__input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='passwordForm']/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "Banana01"
+    }, {
+      "id": "4bd406c6-48fb-4d32-826e-156b4d0b310f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#loginButton > .mdc-button__touch",
+      "targets": [
+        ["css=#loginButton > .mdc-button__touch", "css:finder"],
+        ["xpath=//button[@id='loginButton']/span[3]", "xpath:idRelative"],
+        ["xpath=//button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2762cc2b-7c11-4742-9369-c23365222bb7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.mdc-text-field-helper-text",
+      "targets": [
+        ["css=.mdc-text-field-helper-text", "css:finder"],
+        ["xpath=//form[@id='passwordForm']/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": "Wrong password. Try again or click 'Forgot Password?' to reset it."
+    }, {
+      "id": "2fe397e6-7187-4e3f-a539-71ae5ea51b3b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "af6f59c8-c9c4-45a3-a036-f3ff09c71a77",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1871a607-8d4d-4cde-b16f-61994273badf"]
+  }],
+  "urls": ["https://www.jumia.com.ng/"],
+  "plugins": []
+}
